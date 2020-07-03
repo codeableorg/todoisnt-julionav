@@ -3,7 +3,7 @@
     {
       "name": "Automated tests",
       "setup": "yarn install",
-      "run": "yarn test",
+      "run": "CI=true yarn test",
       "input": "",
       "output": "",
       "comparison": "included",
